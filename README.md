@@ -12,7 +12,7 @@ Referral: https://make.fun/r/y8skhesk
 
 ## The image
 
-A multi-story broadsheet, 33 stories from 25 regions, all verified against reports from Reuters, BBC, CNN and AP on 27 November 2026:
+A multi-story broadsheet, 40 stories from 32 regions, all verified against reports from Reuters, BBC, CNN and AP on 27 November 2026:
 
 - Lead story, hero panel: drones strike Kuwait. Two Italian technicians killed at an air-defence site. Italy and Kuwait blame Iran. Tehran denies any role.
 - USA: Thanksgiving storm, nearly 900,000 without power, the 100th Macy's parade moves to Saturday, a first.
@@ -23,8 +23,8 @@ A multi-story broadsheet, 33 stories from 25 regions, all verified against repor
 - Black Friday: stores open early, Amazon, Walmart and Target run week long sales.
 - New Zealand: official election count due at 2 pm, 400,000 special votes, ruling coalition holds a majority of two.
 - Trump meets NATO chief Rutte at Mar-a-Lago over Ukraine and Iran.
-- Also today (24 briefs): North Korea halts missile aid to Russia, Kim orders wider tactical nuclear push, Congo Ebola cases pass 12,000, Ras Tanura and Jazan refinery attacks, Brent up 3.5% to $94.61, US tariffs on 14 economies, Cairo tanker blast, Duterte ICC trial opens Monday, Kyiv shops hit, UK migration falls to 77,000, South Korea raises its base rate, IAEA seeks a Zaporizhzhia ceasefire, Trump on Putin at the G20, Nasdaq, Brazil inflation, UK car output, NZ v India Test, Myanmar and the ICJ, Netanyahu charges, Depardieu trial, Ibiza tanker, Hong Kong fire toll 168, cheaper HIV jab reaches Africa.
-- Plus a world map with 16 labelled places, a UTC timeline and a date check.
+- Also today (31 briefs): Kyiv says North Korea pauses some missile aid (GUR claim, not independently verified), Kim orders wider tactical nuclear push, Congo Ebola cases pass 12,000, Houthis claim a Ras Tanura hit (unconfirmed, Saudi confirmed only intercepted drones nearby), Jazan refinery attack, Brent up 3.5% to $94.61, US tariffs on 14 economies, Cairo tanker blast, Duterte ICC trial opens Monday, Kyiv shops hit, UK migration falls to 77,000, South Korea raises its base rate, IAEA seeks a Zaporizhzhia ceasefire, Trump on Putin at the G20, Nasdaq, Brazil inflation, UK car output, NZ v India Test, Myanmar and the ICJ, Netanyahu charges, Depardieu trial, Ibiza tanker, Hong Kong fire toll 168, cheaper HIV jab reaches Africa, EU unveils its 22nd Russia sanctions package, US jobless claims fall to 189,000, UN warns of Gaza hypothermia risk, Australia jobless rate jumps to 4.9%, UK retail sales rise 0.7% in October, Germany PMI hits 55.0 (four-year high), France PMI falls to 46.2 (six-month low).
+- Plus a world map with 16 labelled places in boxed labels with real leader lines, a UTC timeline and a date check.
 
 The pictures are AI-generated illustrations, labelled as such in the image, not photographs of the events. The broadsheet was composed with PIL from the verified Kuwait hero illustration; the build script is in `../work/build_broadsheet.py`.
 
@@ -34,7 +34,7 @@ The pictures are AI-generated illustrations, labelled as such in the image, not 
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-Writes `out/entry.png`, a 1024 by 1024 image, 300,223 bytes. Node 22, standard library only, no network. Two runs produce byte-identical output (md5 46b231a244d2d74dc93e4ffbff5090eb).
+Writes `out/entry.png`, a 1024 by 1024 image, 306,628 bytes. Node 22, standard library only, no network. Two runs produce byte-identical output (md5 e3f9ab0e4d7124d2daf17f8de7d5dbb8).
 
 ## License
 
